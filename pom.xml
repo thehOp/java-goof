@@ -22,8 +22,11 @@
         <module>todolist-web-common</module>
         <module>todolist-web-struts</module>
     </modules>
+   
+    <packaging>pom</packaging>
          
-    <dependency>
+     <dependencies>    
+         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-core</artifactId>
             <version>2.6.5</version>
@@ -37,8 +40,8 @@
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-annotations</artifactId>
             <version>2.6.5</version>
-        </dependency>
-    <packaging>pom</packaging>
+         </dependency>
+     </dependencies>
 
     <licenses>
         <license>
